@@ -43,8 +43,12 @@ This is because she is doing an internship there and wrties new articles there a
 
 * I would like to improve the security of the site. I think that the level of security I put in place was adequate considering there's no real motivation for an attacker to try and hack the site, but I think there are still areas where it could be improved, such as the database.
 
-####
+#### Screenshots
 
-Screenshots
+![Screenshot 1](/Screenshot_1.png)
 
+![Screenshot 2](/Screenshot_2.png)
 
+![Screenshot 3](/Screenshot_3.png)
+
+![Admin panel gif](/Admin_panel.gif)
