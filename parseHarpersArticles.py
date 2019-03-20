@@ -12,12 +12,20 @@ import requests
 # https://blog.testproject.io/2018/02/20/chrome-headless-selenium-python-linux-servers/
 
 # You need xvfb, selenium, pyvirtualdisplay, and geckodriver
+<<<<<<< HEAD
 # This script takes like 10 minutes to run, make it more efficient if possible
+=======
+# This script takes like 10 minutes to run, so you should make it more efficient if possible
+>>>>>>> a9b0010e3a66504dcf254e1abad43f17b102d539
 
 try:
     display = Display(visible=0, size=(1024, 768)) 
     display.start()
+<<<<<<< HEAD
     driver = webdriver.Firefox() # Breaks here with 'connection refused' on firefox when on server, most likely due to insufficient RAM.
+=======
+    driver = webdriver.Firefox() # Breaks here with 'connection refused' on firefox when on server, no idea why. Seems unfixable.
+>>>>>>> a9b0010e3a66504dcf254e1abad43f17b102d539
     driver.get('https://www.harpersbazaar.com/tw/author/17684/eachen-lee/')
 
     count = 0
@@ -125,4 +133,8 @@ try:
 
     
 except:
+<<<<<<< HEAD
     driver.quit()
+=======
+    driver.quit()
+>>>>>>> a9b0010e3a66504dcf254e1abad43f17b102d539
