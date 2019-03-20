@@ -17,7 +17,7 @@ import requests
 try:
     display = Display(visible=0, size=(1024, 768)) 
     display.start()
-    driver = webdriver.Firefox() # Breaks here with 'connection refused' on firefox when on server, most likely due to insufficien
+    driver = webdriver.Firefox() # Breaks here with 'connection refused' on firefox when on server, most likely due to insufficient ram.
     driver.get('https://www.harpersbazaar.com/tw/author/17684/eachen-lee/')
 
     count = 0
