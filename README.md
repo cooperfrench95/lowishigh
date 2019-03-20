@@ -49,6 +49,6 @@ This is because she is doing an internship there and wrties new articles there a
 
 ![Screenshot 2](/Screenshot_2.png)
 
-![Screenshot 3](/Screenshot_3.png)
+![Screenshot 3](/Screenshot_3.jpg)
 
 ![Admin panel gif](/Admin_panel.gif)
