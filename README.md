@@ -5,7 +5,7 @@
 ### [Click here to view the blog in action](https://lowishigh.com)
 
 
-This was my first real web dev project that I created from scratch. Of course, it's not perfect, but it works and I'm proud of it, and I learned a lot building it. It's a replacement for the old Wordpress site that my girlfriend was using as her blog page.
+This was my first real web dev project that I created from scratch. Of course, it's not perfect, but it works and I'm proud of it, and I learned a lot building it. It's a replacement for the old Wordpress site that the client was using as her blog page.
 
 #### Features
 
@@ -31,7 +31,7 @@ This was my first real web dev project that I created from scratch. Of course, i
 
 The project uses Bootstrap, SCSS, React and Redux on the frontend, and Express/NodeJS with MongoDB on the backend. I chose this stack because I had just completed quite a lengthy MOOC on Coursera using the same set of technologies, and I wanted to create my own thing to prove that I had truly acquired those skills. If I were to start the project from scratch again today, I would probably choose to use an SQL database, but other than that I think React and Express were good choices. Perhaps I would go for NextJS rather than create-react-app, because I think server-side rendering would probably be a nice improvement, especially in terms of SEO. 
 
-I also wrote a python script to automatically add new Harper's Bazaar articles that my girlfriend wrote to the articles section of the blog.
+I also wrote a python script to automatically add new Harper's Bazaar articles that the client wrote to the articles section of the blog.
 
 This is because she is doing an internship there and wrties new articles there all the time, but unfortunately Harper's Bazaar (a very popular fashion magazine/media company) and its parent company Hearst don't offer a public API. They seem to have launched one in 2014, but then sort of abandoned it and it now no longer works. On top of that, in order to fetch the images, one needs to actually load the page in the browser rather than simply using a HTML scraping tool such as python's requests module, because they have some sort of infinite scrolling javascript going on that doesn't actually place the images on the DOM unless you actually open the page manually. So, I used Selenium with Firefox. The script worked well, but unfortunately the little VPS I use to host the site doesn't have enough RAM to run it properly, so I've ended up just adding the articles manually. In a perfect world, I would pay for better hosting and there hopefully wouldn't be any issues there. The python script is in the repo (parseHarpersArticles.py).
 
