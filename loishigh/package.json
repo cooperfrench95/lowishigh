@@ -5,7 +5,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap-social": "^5.1.1",
-    "cross-fetch": "^2.2.3",
+    "cross-fetch": "^3.1.5",
     "font-awesome": "^4.7.0",
     "halogenium": "^2.2.3",
     "intersection-observer": "^0.5.1",
